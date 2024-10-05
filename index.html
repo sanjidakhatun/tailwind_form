@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind_assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="flex items-center h-screen justify-center mt-0  bg-gradient-to-bl from-purple-600 via-blue-300 to bg-pink-600">
+       <div class="shadow-xl shadow-gray-500  rounded-lg max-w-[550px]  bg-white px-6 py-10"> 
+        <div class="px-10">
+             <h1 class="text-[35px] font-bold text-center">Login</h1>
+        </div>
+        <div class="mx-10">
+        <div class="flex flex-col gap-2 mt-10">
+            <label class="text-lg font-semibold text-gray-500" for="name">Username</label>
+           <div class="relative">
+            <input  class="bg-slate-100  px-8 py-3 w-full outline-none border-b-4 border-gray-300 text-xl placeholder: text-black-400 text-xl" clid="name" type="text" placeholder="Enter your Username">
+           <div class="absolute top-4 left-2 text-gray-500 h-full">
+            <i class="fas fa-user"></i>
+           </div>
+           </div>
+        </div>
+        <div class="flex flex-col gap-2 mt-8">
+            <label class="text-lg font-semibold text-gray-500" for="name">Password</label>
+           <div class="relative">
+            <input  class="bg-slate-100  px-10 py-3 w-full outline-none border-b-4 border-gray-300 text-xl placeholder: text-black-400 text-xl" clid="name" type="password" placeholder="Enter your Password">
+           <div class="absolute top-4 left-2 text-gray-500 h-full">
+            <i class="fas fa-user"></i>
+           </div>
+           </div>
+        </div>
+        <div class="text-right mt-4 text-gray-500">
+             <span class="hover:text-blue-600 cursor-pointer">Forget password?</span>
+        </div>
+        <div class="mt-5">
+            <button class="text-xl font-semibold text-center w-full bg-slate-200  py-3 rounded-lg  bg-gradient-to-bl from-purple-600 via-blue-300 to bg-pink-600">login</button>
+        </div>
+        <div class="flex flex-col items-center justify-center mt-5">
+            <span>Or sign up using</span>
+            <div class="flex gap-2 mt-5">
+                <div class="w-12 h-12 bg-blue-900 rounded-[50%] hover:bg-blue-500   transition-colors duration-1000 cursor-pointer flex items-center justify-center"><i class="fab fa-facebook-f text-white text-xl"></i></div>
+                <div class="w-12 h-12 bg-orange-600 rounded-[50%]  hover:bg-blue-500  transition-colors duration-1000 cursor-pointer flex items-center justify-center"><i class="fab fa-linkedin-in text-white text-xl"></i></div>
+                <div class="w-12 h-12 bg-green-500 rounded-[50%] hover:bg-blue-500   transition-colors duration-1000 cursor-pointer flex items-center justify-center"><i class="fab fa-github  text-white text-xl"></i></div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div> 
+     </div>
+</body>
+</html>
